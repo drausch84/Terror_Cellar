@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/drawable/ic_drag.xml" value="0.2203125" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/drawable/list_divider.xml" value="0.2203125" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/drawable/terror_cellar_logo.xml" value="0.2203125" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/activity_landing_page.xml" value="0.1" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/activity_login.xml" value="0.4910313901345291" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/activity_testing.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/content_testing.xml" value="0.1" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/fragment_add_review.xml" value="0.21" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/fragment_movie_list.xml" value="0.2" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/fragment_movie_review_details.xml" value="0.11096014492753623" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/list_item.xml" value="0.22" />
+        <entry key="..\:/Users/Dhanesh/Documents/Android Example/Rausch-Assn7/TerrorCellar 2/app/src/main/res/layout/list_item_layout.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/drawable/color_cursor.xml" value="0.2604166666666667" />
+        <entry key="app/src/main/res/drawable/custom_rating_bar.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable/ic_drag.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.18206521739130435" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.20643363728470113" />
+        <entry key="app/src/main/res/layout/activity_login1.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.18206521739130435" />
+        <entry key="app/src/main/res/layout/fragment_add_review.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_base.xml" value="0.18206521739130435" />
+        <entry key="app/src/main/res/layout/fragment_edit_review.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout/fragment_movie_list.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_movie_review_details.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.20643363728470113" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.24895833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

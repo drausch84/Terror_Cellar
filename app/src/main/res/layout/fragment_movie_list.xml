@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.MovieListFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llMain"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/user_email_welcome"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="193dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/carrois_gothic"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.075"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.523"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/signout_btn"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="307dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#880808"
+                android:fontFamily="@font/carrois_gothic"
+                android:text="Sign Out"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/henny_penny"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Good Evening!"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <ImageView
+        android:id="@+id/cellarWallpaper"
+        android:layout_width="425dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="154dp"
+        android:visibility="gone"
+        android:layout_marginBottom="375dp"
+        android:contentDescription="@string/cellar_wallpaper"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cellar" />
+
+    <TextView
+        android:id="@+id/reviews_h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="@font/henny_penny"
+        android:text="Horror Movie Reviews"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        tools:listitem="@layout/list_item"
+        android:id="@+id/reviewList"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_review_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#880808"
+        android:tintMode="@color/white"
+        android:visibility="gone"
+        android:layout_margin="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_baseline_add_24"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/progressBar"
+    android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".fragments.MovieReviewDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.10"
+                android:contentDescription="@string/back_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/horror_arrow" />
+
+            <TextView
+                android:id="@+id/movieHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.90"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="@font/henny_penny"
+                android:text="@{`Review for ` + review.movieName}"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cellarWallpaper"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:contentDescription="@string/cellar_wallpaper"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cellar" />
+
+    <ImageView
+        android:id="@+id/Poster"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/cellar_wallpaper"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@tools:sample/avatars" />
+
+    <RatingBar
+        android:id="@+id/movieRating"
+        style="@style/CustomRatingBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:isIndicator="true"
+        android:rating="5"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/movieReviewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:text="@string/add_movie_review"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/editReviewBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#880808"
+        android:fontFamily="@font/henny_penny"
+        android:text="Edit Review"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

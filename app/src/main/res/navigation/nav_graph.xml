@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieListFragment">
+
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.example.terrorcellar.fragments.MovieListFragment"
+        android:label="fragment_movie_list"
+        tools:layout="@layout/fragment_movie_list" >
+        <action
+            android:id="@+id/action_movieListFragment_to_movieReviewDetails"
+            app:destination="@id/movieReviewDetails" />
+        <action
+            android:id="@+id/action_movieListFragment_to_addReviewFragment"
+            app:destination="@id/addReviewFragment" />
+        <action
+            android:id="@+id/action_movieListFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieReviewDetails"
+        android:name="com.example.terrorcellar.fragments.MovieReviewDetails"
+        android:label="fragment_movie_review_details"
+        tools:layout="@layout/fragment_movie_review_details" >
+        <action
+            android:id="@+id/action_movieReviewDetails_to_movieListFragment"
+            app:destination="@id/movieListFragment" />
+        <action
+            android:id="@+id/action_movieReviewDetails_to_addReviewFragment"
+            app:destination="@id/addReviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addReviewFragment"
+        android:name="com.example.terrorcellar.fragments.AddAndEditReviewFragment"
+        android:label="fragment_add_review"
+        tools:layout="@layout/fragment_add_review" >
+        <action
+            android:id="@+id/action_addReviewFragment_to_movieListFragment"
+            app:destination="@id/movieListFragment" />
+        <action
+            android:id="@+id/action_addReviewFragment_to_movieReviewDetails"
+            app:destination="@id/movieReviewDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.terrorcellar.fragments.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.terrorcellar.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomRatingBarStyle" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_rating_bar</item>
+        <item name="android:minHeight">15dip</item>
+        <item name="android:maxHeight">47dip</item>
+    </style>
+    <style name="Theme.Lab2Part2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Lab2Part2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

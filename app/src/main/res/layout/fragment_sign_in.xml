@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010202"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="115dp"
+        android:src="@drawable/terror_cellar_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/henny_penny"
+            android:paddingTop="32dp"
+            android:text="Email"
+            android:textColor="#880808"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/login_username"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:hint="Email"
+            android:nextFocusDown="@id/login_password"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:inputType="text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/henny_penny"
+            android:paddingTop="32dp"
+            android:text="Password"
+            android:textColor="#880808"
+            android:textSize="26sp"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/login_password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:nextFocusDown="@id/login_btn"
+            android:hint="Password"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:inputType="textPassword"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/forgot_pw_btn"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="165dp"
+            android:backgroundTint="@color/black"
+            android:gravity="left"
+            android:text="Forgot Password?"
+            android:textColor="#880808"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#fff"
+            android:text="Sign In"
+            android:textAlignment="center"
+            android:textColor="#880808"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/henny_penny"/>
+        <Button
+            android:id="@+id/google_signin_btn"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="14dp"
+            android:text="Or Sign In With Google"
+            android:fontFamily="@font/henny_penny"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#880808"
+            android:drawableLeft="@drawable/google_icon" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:gravity="left"
+        android:text="Don't have an account? SIGN UP"
+        android:textColor="#880808" />
+
+
+</LinearLayout>

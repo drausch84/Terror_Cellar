@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SignUpFragment"
+    android:background="@drawable/blood_splatter"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/create_account_h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="25dp"
+        android:text="CREATE ACCOUNT"
+        android:textColor="@color/black"
+        android:fontFamily="@font/carrois_gothic"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/create_account_subh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:fontFamily="@font/henny_penny"
+        android:text="Come Down to the Cellar"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/signup_logo"
+        android:layout_width="302dp"
+        android:layout_height="236dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="70dp"
+        android:maxHeight="400dp"
+        android:src="@drawable/terror_cellar_logo" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Email Address"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:backgroundTint="#880808"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:backgroundTint="#880808"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#880808"
+        android:fontFamily="@font/henny_penny"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</LinearLayout>

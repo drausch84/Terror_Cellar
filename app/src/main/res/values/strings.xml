@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Terror Cellar</string>
+    <string name="terror_cellar">Terror Cellar</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="testText">TextView</string>
+    <string name="loginlogo">loginLogo</string>
+    <string name="name">Name</string>
+    <string name="sign_in_if_you_dare">Sign In...If You Dare</string>
+    <string name="textview">TextView</string>
+    <string name="cellar_wallpaper">cellar_wallpaper</string>
+    <string name="movie_poster">movie poster</string>
+    <string name = "webclient_id">183055098574-l3r7gttiedcp07j1fr17jnhf1qo0crlf.apps.googleusercontent.com"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="review_for_n_movie_name">Review for, \n Movie Name</string>
+    <string name="add_movie_review">Add Movie Review</string>
+    <string name="add_n_movie_review">Add \n Movie Review</string>
+    <string name="back_button">back_button</string>
+    <string name="title_activity_testing">TestingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

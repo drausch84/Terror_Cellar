@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".fragments.AddAndEditReviewFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight="0.10"
+                android:contentDescription="@string/back_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/horror_arrow" />
+
+             <TextView
+                android:id="@+id/addReviewHeader"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.90"
+                 android:layout_marginLeft="25dp"
+                 android:fontFamily="@font/henny_penny"
+                android:text="@string/add_n_movie_review"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cellarWallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:contentDescription="@string/cellar_wallpaper"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/cellar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="15dp">
+            <ImageView
+                android:id="@+id/uploadImg"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/upload_icon"/>
+
+            <Button
+                android:id="@+id/addMoviePosterBtn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#880808"
+                android:fontFamily="@font/henny_penny"
+                android:text="Upload Movie Poster"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <EditText
+        android:id="@+id/addMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/textview_border"
+        android:fontFamily="@font/andada"
+        android:hint="Add Movie Name"
+            android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/addMoviePoster"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/textview_border"
+            android:fontFamily="@font/andada"
+            android:hint="Add Movie Poster URL"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/addRating"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andada"
+                android:text="Add Rating:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/movieRating"
+                style="@style/CustomRatingBarStyle"
+                android:layout_width="100dp"
+                android:clickable="true"
+                android:isIndicator="false"
+                android:rating="5"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/addMovieReviewTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="125dp"
+        android:background="@drawable/textview_border"
+        android:fontFamily="@font/andada"
+        android:hint="Add Movie Review"
+        android:paddingLeft="10dp"
+        android:paddingBottom="60dp"
+        android:scrollbars="vertical"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add_review_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#880808"
+        android:fontFamily="@font/henny_penny"
+        android:text="Add Review"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "183055098574",
+    "firebase_url": "https://cs338f21-5271d-default-rtdb.firebaseio.com",
+    "project_id": "cs338f21-5271d",
+    "storage_bucket": "cs338f21-5271d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183055098574:android:514ae19e92cabae918669f",
+        "android_client_info": {
+          "package_name": "com.example.terrorcellar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183055098574-l3r7gttiedcp07j1fr17jnhf1qo0crlf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.terrorcellar",
+            "certificate_hash": "c4283b0fee15cbc35de6cfb25196333762039525"
+          }
+        },
+        {
+          "client_id": "183055098574-5n7tmp1evmn7ithg7v3rtvg6leeejv3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxai9AaDlk6jUo-7xdbC6dd0_-Wvuqr-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183055098574-5n7tmp1evmn7ithg7v3rtvg6leeejv3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
