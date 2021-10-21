@@ -20,4 +20,6 @@ registration email and password to log in or a user can use Google sign-in for a
 
 <img width="385" alt="Terror Cellar Landing Page" src="https://user-images.githubusercontent.com/35150986/138178976-282170a4-f662-4954-a900-f7bedf2a50eb.png">
 
+<img width="376" alt="Terror Cellar Details Page" src="https://user-images.githubusercontent.com/35150986/138192887-4cba2e50-862c-48ff-82cb-ab609a0d305c.png">
+
 <img width="375" alt="Terror Cellar Add:Edit" src="https://user-images.githubusercontent.com/35150986/138179008-9bec5399-6bcc-42b1-abe2-02007bd635b0.png">
