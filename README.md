@@ -16,9 +16,9 @@ registration email and password to log in or a user can use Google sign-in for a
 
 <img width="377" alt="Terror Cellar Forgot Password" src="https://user-images.githubusercontent.com/35150986/138178855-ebff2bfd-8f4b-47c5-b3f3-f47cd2a46000.png">
 
-![terror cellar google login](https://user-images.githubusercontent.com/35150986/138374789-2cf06244-574e-4cc7-aab5-817392e9fc0e.png)
+![terror cellar google login](https://user-images.githubusercontent.com/35150986/138374927-e80d1df3-38c9-4343-ab56-f10954f8980d.png)
 
-![terror cellar landing page](https://user-images.githubusercontent.com/35150986/138374812-3b2daa8a-e3eb-4f55-93a6-afd8dbc75ae0.png)
+![terror cellar landing page](https://user-images.githubusercontent.com/35150986/138374961-5cf9cc50-99e3-45fc-9c5b-2f4fe6e22769.png)
 
 <img width="376" alt="Terror Cellar Details Page" src="https://user-images.githubusercontent.com/35150986/138192887-4cba2e50-862c-48ff-82cb-ab609a0d305c.png">
 
